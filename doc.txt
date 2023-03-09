@@ -1,0 +1,41 @@
+// Tendem learning 
+Tandem learning is a language learning method in which two individuals with different native languages work together 
+to learn each other's language. It involves a language exchange partnership, 
+where each participant takes turns to teach their partner their own language and learn from their partner's language. 
+This method is based on the principle of reciprocal teaching and learning, 
+where both participants benefit from each other's knowledge and experience.
+
+In tandem learning, participants can practice listening, speaking, reading, and writing in a supportive environment, 
+with a focus on real-life communication and cultural exchange. Tandem learning can take place in person, 
+through language exchange programs or language schools, or online through language learning platforms and apps.
+
+Tandem learning is a popular approach to language learning as it provides a personalized learning experience, 
+promotes language immersion and cultural exchange, 
+and helps build social connections with people from different backgrounds.
+
+// Synopsis
+Simple Introduction:
+The GPT-3 Tandem Learning Web App is a language learning tool that simulates a conversation with a virtual tandem partner. By using the OpenAI GPT-3 API, the app can provide instant feedback on grammar and vocabulary usage.
+Additionally, the GPT-3 Tandem Learning Web App is available in multiple languages, providing users with the opportunity to practice their language skills in a variety of languages.
+
+Existing System:
+Traditional language learning methods may not provide immediate feedback on language usage, which can hinder progress. However, the GPT-3 Tandem Learning Web App addresses this issue by providing a virtual conversation partner that corrects any mistakes made and adds new vocabulary/grammar to the conversation.
+
+Proposed System:
+The GPT-3 Tandem Learning Web App uses the OpenAI GPT-3 API to simulate a conversation with a virtual tandem partner. Every time the user submits a message, the app sends the conversation history to the GPT-3 API, which then replies with a message that corrects any mistakes made and adds new vocabulary/grammar. The app then displays the GPT-3 response. All data is only stored in the user's browser's local storage, ensuring user privacy, and the app communicates directly with the OpenAI API, ensuring reliability.
+
+Modules:
+The GPT-3 Tandem Learning Web App has four main modules:
+    User Input: Users can input their message to the virtual tandem partner.
+    Conversation History: The app keeps track of the conversation history to send to the GPT-3 API for analysis.
+    GPT-3 API Integration: The GPT-3 API analyzes the conversation history and responds with a corrected message that includes new vocabulary/grammar.
+    Display: The app displays the corrected message from the GPT-3 API in the user interface.
+
+// What ? 
+A program that looks like a messenger
+one can create a new chat by answering the question: "What did you learn today"
+Example answers:
+    Room
+    The Pratice
+A new chat will be created, and the bot asks you an example question about the new vocab / grammar
+You can answer and chat with the bot about the new concept and it will correct your mistakes
